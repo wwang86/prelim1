@@ -79,6 +79,6 @@ I = I./10e3;
 
 figure()
 semilogx(I,proteinC)
-xlable("Inducer[mM]")
-ylable("Protein[uM]")
+xlabel("Inducer[mM]")
+ylabel("Protein[uM]")
 savefig("figure2.png")
